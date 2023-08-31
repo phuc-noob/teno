@@ -1,0 +1,9 @@
+program to an interface, not an implementation
+it is spent more time for maintaining and updating the application than init it
+
+design pt
+micro architect 
+clean structure
+grpc
+liquibase 
+keylock 

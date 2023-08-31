@@ -1,0 +1,9 @@
+.header {
+    max-width: 50%;
+    display: block;
+    min-height: 64px;
+    padding: 2em 0;
+    text-align: left;
+    margin-left: 25%;
+    cursor:pointer;
+  }
