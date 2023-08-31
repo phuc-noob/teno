@@ -1,7 +1,15 @@
-const BlogTitle = ({title})=>{
+import { NextPage } from "next"
+import { type } from "os"
+
+interface Props {
+    titleName: string;
+  }
+
+const BlogTitle: NextPage<Props> = (title)=>{
+    const {titleName} = title
     return (
         <>
-            <h1>MASTER WITH ORGANIZE MICROSERVICE ARCHITECT</h1>        
+            <h1>{titleName}</h1>        
         </>
     )
 }
